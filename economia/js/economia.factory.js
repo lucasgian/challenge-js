@@ -1,10 +1,10 @@
 (function() {
     'use strict';
   
-    angular.module('question-app')
-      .factory('AnimalFactory', AnimalFactory);
+    angular.module('economia-app')
+      .factory('EconomiaFactory', EconomiaFactory);
   
-    function AnimalFactory() {
+    function EconomiaFactory() {
       var animais = [{
         "id": 0,
         "nome": "Xilito",

@@ -1,8 +1,8 @@
 (function() {
   'use strict';
-  angular.module('question-app', ['ngRoute']);
+  angular.module('economia-app', ['ngRoute']);
 
-  angular.module('question-app')
+  angular.module('economia-app')
     .run(function($rootScope, $route, $routeParams, $location) {
       
       $rootScope.$on('$routeChangeStart',function(evt,next,current){

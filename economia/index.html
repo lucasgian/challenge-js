@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html ng-app="question-app">
+<html ng-app="economia-app">
+
 <head>
   <meta charset="UTF-8">
-  <title>AngularJS: Rotas (ngRoute)</title>
+  <title>A Economia Brasileira</title>
   <!--
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>Animais para Adoção</h1>
-  
+  <h1></h1>
+
   <div ng-view style="border: 1px solid"></div>
-  
+  <!-- Depuração 
   <div>
     <p><b>Vamos ver o que está acontecendo?</b></p>
     <pre>Path ($location.path()) = {{$location.path()}}</pre>
@@ -20,17 +23,21 @@
     <pre>Titulo da Página ($route.current.scope.titulo) = {{$route.current.scope.titulo}}</pre>
     <pre>Parâmetros da URL ($routeParams) = {{$routeParams}}</pre>
   </div>
+  -->
+
   <footer>
-      <hr/>
-      <a href="https://www.github.com/lucasgian">Gian Fonseca</a>
+    <hr/>
+    <a href="https://www.github.com/lucasgian">Gian Fonseca</a>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
   <script src="//code.angularjs.org/1.4.4/angular-route.js"></script>
   <script src="js/app.js"></script>
   <script src="js/config.js"></script>
-  <script src="js/question.controller.js"></script>
+  <script src="js/economia.brasil.controller.js"></script>
+  <script src="js/economia.italia.controller.js"></script>
   <script src="js/animal.lista.controller.js"></script>
   <script src="js/animal.detalhe.controller.js"></script>
-  <script src="js/animal.factory.js"></script>
+  <script src="js/economia.factory.js"></script>
 </body>
+
 </html>
